@@ -7,10 +7,26 @@
     <link rel="stylesheet" href="./../style/style.css">
 </head>
 <body>
-    <div class="divButton">
-        <button>Resolve</button>
+    <div class="main-container">
+        <div class="form-container">
+            <label for="labyrinthe_size">Choisissez la taille</label>
+            <select name="size" id="labyrinthe_size">
+                <option value="3" selected>3</option>
+            </select>
+
+            <label for="typeOfLab">Choisir quel labyrinthe</label>
+            <select name="type" id="typeOfLab">
+                <option value="0" selected>0</option>
+            </select>
+            <div class="divButton">
+                <button>Resolve</button>
+            </div>
+        </div>
+        
+        
+    <div class="labContainer">
+        <div id="labyrinthe"></div>
     </div>
-    <div id="labyrinthe">  
         
     </div>
     <script src="./../js/labyrinthes.js"></script>
