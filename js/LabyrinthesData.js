@@ -165922,3 +165922,5 @@ let labyrinthes = {
         ]
     }
 }
+
+export default labyrinthes;
