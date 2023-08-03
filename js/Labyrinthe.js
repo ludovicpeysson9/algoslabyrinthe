@@ -9,7 +9,7 @@ class Labyrinthe{
     }
     
     getSizeOfCell(size){
-        let arrayOfCellSizes = [175, 175, 175, 175, 135, 100, 90, 75, 65, 60, 50, 45, 44, 42, 36, 33, 33, 31, 30, 30, 29, 28, 27, 26, 25, 23];
+        let arrayOfCellSizes = [200, 200, 200, 200, 160, 125, 100, 85, 75, 70, 60, 55, 52, 48, 42, 38, 36, 35, 34, 33, 32, 31, 31, 30, 29, 23];
         return arrayOfCellSizes[size];
     }
 

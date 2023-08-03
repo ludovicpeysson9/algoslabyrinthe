@@ -4,14 +4,10 @@ export class Cell {
         this.x = cellData.posX; 
         this.y = cellData.posY;
         this.walls = cellData.walls;
+        this.parent = null;
+        this.isVisited = false;
         if (cellData.entrance ) { this.entrance = true }
-        if (cellData.entrance ) { this.visited = true }
         if (cellData.exit ) { this.exit = true }
-    }
-
-    
-    setVisitedToTrue(isVisited){
-        this.visited = isVisited;
     }
 
     getCellDOM(){
