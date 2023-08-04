@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: burlywood;
+    background-image: url('./../assets/herbe.jpg');
 }
 .main-container{
     display: flex;
@@ -25,18 +25,25 @@ button:hover{
 }
 .divButton{
     width: 100%;
+    display: flex;
     text-align: center;
 }
 .form-container{
     display: flex;
     flex-direction: column;
     width: 20%;
+    background-color: aliceblue;
+    border: 7px grey ridge;
+    padding: 25px;
+}
+.form-container > select {
+    margin : 50px 0 50px 0;
 }
 .labContainer{
     width: 80%;
 }
 #labyrinthe{
-    background-color: aliceblue;
+    background-image: url('./../assets/terre.jpg');
     width: 50%;
     margin: 15px auto;
     display: flex;
