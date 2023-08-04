@@ -28,6 +28,9 @@ button:hover{
     display: flex;
     text-align: center;
 }
+.divButton > button{
+    height: 70px;
+}
 .form-container{
     display: flex;
     flex-direction: column;
